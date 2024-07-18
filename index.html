@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de Texto</h1>
+    </header>
+    <main>
+        <section class="input-section">
+            <textarea id="text-input" placeholder="Introduce tu texto aquí..."></textarea>
+            <div class="buttons">
+                <button id="encrypt-btn">Cifrar</button>
+                <button id="decrypt-btn">Descifrar</button>
+            </div>
+            <p id="validation-message">No se aceptan mayúsculas ni caracteres especiales.</p>
+        </section>
+        <section class="output-section">
+            <textarea id="text-output" readonly placeholder="El texto cifrado/descifrado aparecerá aquí..."></textarea>
+            <button id="copy-btn">Copiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>Creado por Exneider Realpe &copy; 2024</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
